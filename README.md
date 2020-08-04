@@ -8,7 +8,7 @@ Finish the function “numberToOrdinal”, which should take a number and return
 
 ### Solution
 we have 10 values in array on each index it has the value, if array[i%10] ,, if array[0] then it will represent th, if i%10 array[1] it will represent st, 2 with nd, 3 rd, 4th ... 10th, 11 12 13 14 onward all are th.
-```
+```java
 public class NumberToOrdinal {
     public static String numberToOrdinal(Integer number) {
         if (number.equals(0)) {
